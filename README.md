@@ -1,18 +1,17 @@
-## Getting Started
+# Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Run the command below to start matrix multiplication
 
-## Folder Structure
+```bash
+java -jar matrix_multiply.jar "<output file name>"
+```
 
-The workspace contains two folders by default, where:
+If the output file name is not given it will be `result.txt`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## From source
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+If you want to compile and run from the source code, the necessary build and run setting are inside `.vscode` folder.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Project source
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If you want to access the repository for the project here is the link to it <https://github.com/CyberFreak1911/CMPE411-Multithread-Matrix-Multiplication>
