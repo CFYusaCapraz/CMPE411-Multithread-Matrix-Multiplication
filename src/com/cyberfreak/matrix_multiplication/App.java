@@ -44,10 +44,11 @@ public class App {
         }
 
         String outFileName;
-        if (args[0] != null)
+        try {
             outFileName = args[0];
-        else
+        } catch (ArrayIndexOutOfBoundsException e) {
             outFileName = "result.txt";
+        }
         File f = new File(outFileName);
         try (FileWriter fw = new FileWriter(f);
                 PrintWriter pw = new PrintWriter(fw)) {
